@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite" verbose="5">
+  <test thread-count="4" parallel="classes" name="Test">
+    <classes>
+      <class name="servicenow.FillMandatoryFields"/>
+      <class name="servicenow.OrderingMobile"/>
+      <class name="servicenow.CreatenewProposal"/>
+      <class name="servicenow.CreateNewCaller"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
